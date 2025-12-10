@@ -1,0 +1,112 @@
+.search-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  max-width: 225px;
+  height: 36px;
+  background-color: #fffefe;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0 15px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.search-submit {
+  width: 100%;
+  max-width: 211px;
+  height: 41px;
+  background-color: #82a0e3;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+}
+
+.search-cancel {
+  display: block;
+  background: none;
+  border: none;
+  color: black;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.results-list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.result-card {
+  background-color: white;
+  border: 1px solid #fffbfb;
+  border-radius: 20px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 64px;
+}
+
+.result-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.result-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.result-name {
+  font-size: 24px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.result-rating {
+  font-size: 14px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.result-price {
+  font-size: 24px;
+  color: #56ac41;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}

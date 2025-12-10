@@ -1,0 +1,75 @@
+.search-button {
+  display: block;
+  background-color: #56ac41;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 24px;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+}
+
+.drivers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.driver-card {
+  background-color: white;
+  border: 1px solid #fffbfb;
+  border-radius: 20px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 63px;
+}
+
+.driver-avatar {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.driver-name {
+  font-size: 24px;
+  color: black;
+  font-family: Arial, sans-serif;
+  flex: 1;
+}
+
+.chat-button {
+  background: none;
+  border: none;
+  color: #56ac41;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+.publish-button {
+  display: block;
+  background-color: #29961b;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  width: 209px;
+  margin: 0 auto;
+}
